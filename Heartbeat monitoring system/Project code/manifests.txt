@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.monitoring">
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="project.monitoring.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="project.monitoring.RegisterActivity"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.MonitorActivity"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.SendReport"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Solution"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Fever"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Cold"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Headache"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Chestpain"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Nausea"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="project.monitoring.Stomach"
+            android:label="Login" >
+        </activity>
+    </application>
+
+</manifest>
